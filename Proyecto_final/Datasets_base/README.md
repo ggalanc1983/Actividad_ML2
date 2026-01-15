@@ -67,8 +67,7 @@ Elimina eventos espurios y recupera variables climáticas representativas.
 - Eliminación de incendios con duración 0
 - Reagregación final de métricas del incendio
 - Integración de clima histórico definitivo
-- Dataset limpio y consistente para modelado final
-
+  
 ---
 
 ## Relación entre los datasets (Pipeline)
