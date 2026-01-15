@@ -18,7 +18,7 @@ Cada archivo representa una **etapa distinta del pipeline**, desde datos diarios
 ---
 
 ## Clima_Incendios_Detallado_Clasificado.csv  
-**Nivel:** Diario – Comunal  
+**Nivel:** focos Diarios – Comunal  
 
 ### Descripción
 Dataset base que integra **variables climáticas diarias** con **detecciones de incendios satelitales**, asignando cada incendio a la comuna más cercana.  
@@ -31,12 +31,6 @@ Incluye explícitamente **días con y sin incendios**, permitiendo análisis bal
 - Inclusión de días sin incendios
 - Clasificación inicial de incendios según FRP
 - Variables binarias (ocurrencia, intensidad, día/noche)
-
-### Uso recomendado
-- Análisis exploratorio (EDA)
-- Series temporales comunales
-- Modelos de ocurrencia de incendios
-- Análisis descriptivo clima–incendio
 
 ---
 
@@ -55,11 +49,6 @@ Se incorporan **variables climáticas históricas (lags)** y métricas de evoluc
   - Incremento de intensidad (ΔFRP)
 - Variables climáticas rezagadas (1, 2 y 3 días)
 - Definición de target supervisado (`target_transicion`)
-
-### Uso recomendado
-- Modelos de clasificación o regresión
-- Análisis de factores climáticos previos al crecimiento del incendio
-- Estudios causales y predictivos
 
 ---
 
@@ -80,12 +69,6 @@ Elimina eventos espurios y recupera variables climáticas representativas.
 - Integración de clima histórico definitivo
 - Dataset limpio y consistente para modelado final
 
-### Uso recomendado
-- Modelos predictivos finales
-- Validación científica
-- Análisis de riesgo y escalamiento de incendios
-- Resultados para tesis o publicación académica
-
 ---
 
 ## Relación entre los datasets (Pipeline)
@@ -99,11 +82,3 @@ Dataset_Incendios_Eventos_Fusionados_SinDuracionCero
 ```
 
 Cada dataset **depende directamente del anterior** y representa una etapa más avanzada de procesamiento y limpieza.
-
----
-
-## Notas adicionales
-- Todos los datasets están en formato CSV.
-- Codificación compatible con Excel y Python.
-- Pensados para uso en **Python, R o software estadístico**.
-- El dataset final es el recomendado para entrenamiento de modelos.
