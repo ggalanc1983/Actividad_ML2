@@ -10,6 +10,8 @@ Cada archivo representa una **etapa distinta del pipeline**, desde datos diarios
 ```
 /datasets
 │
+├── Dataset_clima
+├── Datasets_incendios
 ├── Clima_Incendios_Detallado_Clasificado.csv
 ├── Dataset_Incendios_y_clima_Final.csv
 └── Dataset_Incendios_Eventos_Fusionados_SinDuracionCero.csv
