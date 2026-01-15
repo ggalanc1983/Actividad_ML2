@@ -8,7 +8,7 @@ Cada archivo representa una **etapa distinta del pipeline**, desde datos diarios
 ## Estructura del Directorio
 
 ```
-/datasets
+/Datasets_base
 │
 ├── Dataset_clima
 ├── Datasets_incendios
