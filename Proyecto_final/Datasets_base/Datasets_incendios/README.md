@@ -18,6 +18,11 @@ Cada archivo CSV corresponde a un año específico de detecciones de incendios e
 
 Los datasets incluyen información espacial, temporal y radiométrica asociada a focos de incendio detectados por sensores satelitales.
 
+- `Crear_dataset_incendios.ipynb`
+
+Script en Python que realiza la unión en un solo archivo de los registros anuales.
+
+
 ---
 
 ## Uso previsto
