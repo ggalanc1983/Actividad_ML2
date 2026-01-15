@@ -11,8 +11,13 @@ El dataset ha sido elaborado a partir de datos meteorológicos agregados y está
 - `Condiciones_Climáticas_Biobio_2020_2024.csv`  
   Dataset climático histórico con variables meteorológicas diarias asociadas a comunas de la Región del Biobío.
 
+- `Obtener_Registros_Clima.ipynb`
+  Archivo en python para obtención de histórico de condiciones climáticas desde API de open-meteo
+
 - `README.md`  
   Documento descriptivo del contenido, estructura y uso del dataset.
+
+  
 
 ---
 
