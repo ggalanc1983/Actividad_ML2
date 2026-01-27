@@ -42,9 +42,3 @@ Dataset utilizado para el desarrollo de la actividad.
 Contiene información de clientes de una empresa de telecomunicaciones, incluyendo variables numéricas y categóricas, junto con la variable objetivo `Churn`, que indica si el cliente abandonó o no el servicio.
 
 ---
-
-## Notas adicionales
-
-- El enfoque prioriza métricas adecuadas para problemas con **desbalance de clases**, especialmente **F1** y **PR-AUC**, por sobre la accuracy.
-- La estructura del notebook y los textos explicativos están diseñados para facilitar la comprensión del proceso completo de modelamiento y evaluación.
-- El contenido de este directorio está pensado para ser revisado tanto a nivel técnico como conceptual.
